@@ -1,0 +1,86 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="degu.educa">
+<body>
+
+<metal:content-core fill-slot="content-core">
+    <metal:content-core define-macro="content-core">
+
+      <div>
+        <label for="birth" i18n:translate="label_student_birth">Fecha de nacimiento:</label>
+        <span id="birth" tal:content="context/birth" />
+      </div>
+
+      <div>
+        <label for="rut" i18n:translate="label_student_rut">RUT:</label>
+        <span id="rut" tal:content="context/rut" />
+      </div>
+
+      <div>
+        <label for="address" i18n:translate="label_student_address">Dirección:</label>
+        <span id="address" tal:content="context/address" />
+      </div>
+
+      <div>
+        <label for="phone" i18n:translate="label_student_phone">Teléfono:</label>
+        <span id="phone" tal:content="context/phone" />
+      </div>
+
+      <div>
+        <label for="health" i18n:translate="label_student_health">Previsión de salud:</label>
+        <span id="health" tal:content="context/health" />
+      </div>
+      
+      <div>
+        <label for="afp" i18n:translate="label_student_afp">AFP:</label>
+        <span id="afp" tal:content="context/afp" />
+      </div>
+
+      <div>
+        <label for="programaPuente" i18n:translate="label_student_programaPuente">Programa Puente:</label>
+        <span id="programaPuente" tal:content="context/programaPuente" />
+      </div>
+
+      <div>
+        <label for="prioritario" i18n:translate="label_student_prioritario">Prioritario:</label>
+        <span id="prioritario" tal:content="context/prioritario" />
+      </div>
+
+      <div>
+        <label for="vulnerable" i18n:translate="label_student_vulnerable">Vulnerable:</label>
+        <span id="vulnerable" tal:content="context/vulnerable" />
+      </div>
+
+      <div>
+        <label for="chileSolidario" i18n:translate="label_student_chileSolidario">Chile Solidario:</label>
+        <span id="chileSolidario" tal:content="context/chileSolidario" />
+      </div>
+
+      <div>
+        <label for="fatherName" i18n:translate="label_student_fatherName">Nombre del padre:</label>
+        <span id="fatherName" tal:content="context/fatherName" />
+      </div>
+
+      <div>
+        <label for="fatherStudies" i18n:translate="label_student_fatherStudies">Escolaridad del padre:</label>
+        <span id="fatherStudies" tal:content="context/fatherStudies" />
+      </div>
+
+      <div>
+        <label for="motherName" i18n:translate="label_student_motherName">Nombre de la madre:</label>
+        <span id="motherName" tal:content="context/motherName" />
+      </div>
+
+      <div>
+        <label for="motherStudies" i18n:translate="label_student_motherStudies">Escolaridad de la madre:</label>
+        <span id="motherStudies" tal:content="context/motherStudies" />
+      </div>
+    </metal:content-core>
+</metal:content-core>
+
+</body>
+</html>
