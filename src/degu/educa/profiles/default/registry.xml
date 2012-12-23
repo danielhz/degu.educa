@@ -1,0 +1,7 @@
+<registry>
+  
+  <!-- Create records for our settings -->
+    
+  <records interface="degu.educa.interfaces.IDeguSettings" />
+
+</registry>

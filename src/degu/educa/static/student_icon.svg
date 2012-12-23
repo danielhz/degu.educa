@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   width="16"
+   height="16"
+   sodipodi:docname="contact_icon.svg"
+   inkscape:export-filename="/home/daniel/code/plone/degu.educa/src/degu/educa/static/student_icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3599">
+      <stop
+         style="stop-color:#5a541a;stop-opacity:1"
+         offset="0"
+         id="stop3601" />
+      <stop
+         style="stop-color:#b8aa35;stop-opacity:0;"
+         offset="1"
+         id="stop3603" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3599"
+       id="linearGradient3605"
+       x1="13.59519"
+       y1="14.725451"
+       x2="9.0741482"
+       y2="6.9428859"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1174"
+     inkscape:window-height="729"
+     id="namedview4"
+     showgrid="true"
+     inkscape:zoom="26.288532"
+     inkscape:cx="6.3009709"
+     inkscape:cy="8.3058252"
+     inkscape:window-x="2"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2818" />
+  </sodipodi:namedview>
+  <path
+     style="fill:#2e3436;stroke:none"
+     d="M 1.0382998,15 C 1.4615902,11.385815 6.9736905,10.754326 6.9736905,10.754326 L 5.2781975,9.2192908 4.7481133,4.1614186 7.927065,1 11.212034,3.6192908 11,9.4 9.4105241,10.754326 C 12.617839,10.544317 13.732997,12.881557 15.027864,15 L 1.0382998,15 z"
+     id="path2832"
+     sodipodi:nodetypes="cccccccccc" />
+</svg>
