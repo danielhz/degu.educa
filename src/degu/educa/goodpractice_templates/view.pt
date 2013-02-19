@@ -15,6 +15,10 @@
       <table class="invisible">
         <tbody>
 	  <tr>
+            <td><label for="creador" i18n:translate="label_goodpractice_establecimiento">Creado por:</label></td>
+            <td><span id="creador" tal:content="context/creador" /></td>
+      	  </tr>
+	  <tr>
             <td><label for="establecimiento" i18n:translate="label_goodpractice_establecimiento">Establecimiento:</label></td>
             <td><span id="establecimiento" tal:content="context/establecimiento" /></td>
       	  </tr>
@@ -48,6 +52,18 @@
 
       <h1>Logros</h1>
       <div id="logros" tal:replace="structure context/logros/output" />
+
+      <h1>Adjuntos</h1>
+
+      <table id="attachments" class="grid listing" style="width:100%">
+        <tr>
+          <th style="width: 2em; text-align: right;">#</th><th>Título</th>
+        </tr>
+        <tr tal:repeat="item container/objectValues">
+          <td tal:content="repeat/item/number" style="width: 2em; text-align: right;">#</td>
+          <td><a tal:attributes="href string:${item/absolute_url}/view" tal:content="item/title">Título</a></td>
+        </tr>
+      </table>
 
     </metal:content-core>
 </metal:content-core>

@@ -8,6 +8,7 @@ from zope.interface import Invalid
 
 from plone.namedfile.interfaces import IImageScaleTraversable
 from plone.namedfile.field import NamedBlobImage
+from plone.namedfile.field import NamedBlobFile
 
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
 from plone.app.textfield import RichText
@@ -17,7 +18,11 @@ from degu.educa import DeguEducaMessageFactory as _
 class IGoodPractice(form.Schema):
     """A good practice description.
     """
-
+    creador = schema.TextLine(
+        title=_(u"Creadores"),
+        description=_(u"Las personas que desarrollaron la experiencia"),
+    )
+    
     establecimiento = schema.Choice(
         title=_(u"Establecimiento"),
         description=_(u"Dónde se realizó la experiencia"),
