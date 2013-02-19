@@ -58,7 +58,7 @@ def DAMCodesVocabularyFactory(context):
     return SimpleVocabulary.fromValues(settings.damCodes or ())
 
 # Register this function as a global utility providing IVocabularyFactory,
-# which describes a callable, with the name "degu.contacts.DAMCodes".
+# which describes a callable, with the name "degu.educa.DAMCodes".
 
 grok.global_utility(DAMCodesVocabularyFactory,
         provides=IVocabularyFactory,
