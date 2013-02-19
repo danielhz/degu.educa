@@ -87,7 +87,7 @@ class IStudent(form.Schema):
 class View(grok.View):
     """Default view (called "@@view"") for a contact.
     
-    The associated template is found in contact_templates/view.pt.
+    The associated template is found in student_templates/view.pt.
     """
     
     grok.context(IStudent)

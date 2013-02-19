@@ -1,0 +1,56 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="degu.educa">
+<body>
+
+<metal:content-core fill-slot="content-core">
+    <metal:content-core define-macro="content-core">
+
+    <div style="border: 1px solid #ccc; border-radius: 4px; -webkit-border-radius: 4px; padding: 10px; margin: 10px 0; box-shadow: 0 0 2px 2px #eee; background: #f9f9e5">
+
+      <table class="invisible">
+        <tbody>
+	  <tr>
+            <td><label for="establecimiento" i18n:translate="label_goodpractice_establecimiento">Establecimiento:</label></td>
+            <td><span id="establecimiento" tal:content="context/establecimiento" /></td>
+      	  </tr>
+	  <tr>
+            <td><label for="nivel" i18n:translate="label_goodpractice_nivel">Nivel:</label></td>
+            <td><span id="nivel" tal:content="context/nivel" /></td>
+      	  </tr>
+	  <tr>
+            <td><label for="asignatura" i18n:translate="label_goodpractice_asignatura">Asignatura:</label></td>
+            <td><span id="asignatura" tal:content="context/asignatura" /></td>
+          </tr>
+	  <tr>
+            <td><label for="unidad" i18n:translate="label_goodpractice_unidad">Unidad:</label></td>
+            <td><span id="unidad" tal:content="context/unidad" /></td>
+      	  </tr>
+	  <tr>
+            <td><label for="objetivo" i18n:translate="label_goodpractice_objetivo">Objetivo:</label></td>
+            <td><span id="objetivo" tal:content="context/objetivo" /></td>
+      	  </tr>
+	  <tr>
+            <td><label for="duracion" i18n:translate="label_goodpractice_duracion">Duración:</label></td>
+            <td><span id="duracion" tal:content="context/duracion" /></td>
+          </tr>
+	</tbody>
+      </table>
+
+    </div>
+
+      <h1>Descripción</h1>
+      <div id="descripcion" tal:replace="structure context/descripcion/output" />
+
+      <h1>Logros</h1>
+      <div id="logros" tal:replace="structure context/logros/output" />
+
+    </metal:content-core>
+</metal:content-core>
+
+</body>
+</html>
