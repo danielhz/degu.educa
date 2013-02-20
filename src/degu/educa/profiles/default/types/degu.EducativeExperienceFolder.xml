@@ -19,7 +19,7 @@
     <!-- Schema, class and security -->
     <property name="schema">degu.educa.educativeexperiencefolder.IEducativeExperienceFolder</property> 
     <property name="klass">plone.dexterity.content.Container</property>
-    <property name="add_permission">optilux.AddEducativeExperienceFolder</property>
+    <property name="add_permission">degu.AddEducativeExperienceFolder</property>
  
     <!-- enabled behaviors -->
     <property name="behaviors">

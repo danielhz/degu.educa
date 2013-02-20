@@ -19,7 +19,7 @@
     <!-- Schema, class and security -->
     <property name="schema">degu.educa.studentfolder.IStudentFolder</property> 
     <property name="klass">plone.dexterity.content.Container</property>
-    <property name="add_permission">optilux.AddStudentFolder</property>
+    <property name="add_permission">degu.AddStudentFolder</property>
  
     <!-- enabled behaviors -->
     <property name="behaviors">
@@ -29,11 +29,10 @@
     </property>
     
     <!-- Views and aliases -->
-    <property name="default_view">folder_summary_view</property>
-    <property name="default_view_fallback">True</property>
+    <property name="default_view">view</property>
+    <property name="default_view_fallback">False</property>
     <property name="view_methods">
-        <element value="folder_summary_view"/>
-        <element value="folder_listing"/>
+        <element value="view"/>
     </property>
     
     <alias from="(Default)" to="(selected layout)"/>
