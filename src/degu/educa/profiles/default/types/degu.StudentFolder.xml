@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
-<object name="degu.Student" meta_type="Dexterity FTI"
+<object name="degu.StudentFolder" meta_type="Dexterity FTI"
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="degu.educa">
     
     <!-- Basic properties -->
-    <property name="title" i18n:translate="">Buena práctica</property>
-    <property name="description" i18n:translate="">Una experiencia para compartir</property>
+    <property name="title" i18n:translate="">Student Folder</property>
+    <property name="description" i18n:translate="">A folder containing students</property>
     <property name="content_icon">++resource++degu.educa/student_icon.gif</property>
-    <property name="allow_discussion">True</property>
+    <property name="allow_discussion">False</property>
     
     <!-- Hierarchy control -->
-    <property name="global_allow">False</property>
+    <property name="global_allow">True</property>
     <property name="filter_content_types">True</property>
     <property name="allowed_content_types">
-      <element value="File" />
+        <element value="degu.Student" />
     </property>
     
     <!-- Schema, class and security -->
-    <property name="schema">degu.educa.goodpractice.IGoodPractice</property> 
+    <property name="schema">degu.educa.studentfolder.IStudentFolder</property> 
     <property name="klass">plone.dexterity.content.Container</property>
-    <property name="add_permission">degu.AddGoodPractice</property>
+    <property name="add_permission">optilux.AddStudentFolder</property>
  
     <!-- enabled behaviors -->
     <property name="behaviors">
@@ -29,10 +29,11 @@
     </property>
     
     <!-- Views and aliases -->
-    <property name="default_view">view</property>
-    <property name="default_view_fallback">False</property>
+    <property name="default_view">folder_summary_view</property>
+    <property name="default_view_fallback">True</property>
     <property name="view_methods">
-        <element value="view"/>
+        <element value="folder_summary_view"/>
+        <element value="folder_listing"/>
     </property>
     
     <alias from="(Default)" to="(selected layout)"/>

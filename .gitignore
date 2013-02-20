@@ -1,6 +1,7 @@
 *.egg
 *.egg-info
 *~
+*.swp
 *.pyc
 .installed.cfg
 bin
@@ -10,3 +11,4 @@ var
 develop-eggs
 checkouts
 .mr.developer.cfg
+*.mo

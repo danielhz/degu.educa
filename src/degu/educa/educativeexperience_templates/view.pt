@@ -15,31 +15,31 @@
       <table class="invisible">
         <tbody>
 	  <tr>
-            <td><label for="creador" i18n:translate="label_goodpractice_establecimiento">Creado por:</label></td>
+            <td><label for="creador" i18n:translate="label_educativeexperience_establecimiento">Creado por:</label></td>
             <td><span id="creador" tal:content="context/creador" /></td>
       	  </tr>
 	  <tr>
-            <td><label for="establecimiento" i18n:translate="label_goodpractice_establecimiento">Establecimiento:</label></td>
+            <td><label for="establecimiento" i18n:translate="label_educativeexperience_establecimiento">Establecimiento:</label></td>
             <td><span id="establecimiento" tal:content="context/establecimiento" /></td>
       	  </tr>
 	  <tr>
-            <td><label for="nivel" i18n:translate="label_goodpractice_nivel">Nivel:</label></td>
+            <td><label for="nivel" i18n:translate="label_educativeexperience_nivel">Nivel:</label></td>
             <td><span id="nivel" tal:content="context/nivel" /></td>
       	  </tr>
 	  <tr>
-            <td><label for="asignatura" i18n:translate="label_goodpractice_asignatura">Asignatura:</label></td>
+            <td><label for="asignatura" i18n:translate="label_educativeexperience_asignatura">Asignatura:</label></td>
             <td><span id="asignatura" tal:content="context/asignatura" /></td>
           </tr>
 	  <tr>
-            <td><label for="unidad" i18n:translate="label_goodpractice_unidad">Unidad:</label></td>
+            <td><label for="unidad" i18n:translate="label_educativeexperience_unidad">Unidad:</label></td>
             <td><span id="unidad" tal:content="context/unidad" /></td>
       	  </tr>
 	  <tr>
-            <td><label for="objetivo" i18n:translate="label_goodpractice_objetivo">Objetivo:</label></td>
+            <td><label for="objetivo" i18n:translate="label_educativeexperience_objetivo">Objetivo:</label></td>
             <td><span id="objetivo" tal:content="context/objetivo" /></td>
       	  </tr>
 	  <tr>
-            <td><label for="duracion" i18n:translate="label_goodpractice_duracion">Duración:</label></td>
+            <td><label for="duracion" i18n:translate="label_educativeexperience_duracion">Duración:</label></td>
             <td><span id="duracion" tal:content="context/duracion" /></td>
           </tr>
 	</tbody>

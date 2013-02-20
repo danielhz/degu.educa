@@ -15,8 +15,8 @@ from plone.app.textfield import RichText
 
 from degu.educa import DeguEducaMessageFactory as _
 
-class IGoodPractice(form.Schema):
-    """A good practice description.
+class IEducativeExperience(form.Schema):
+    """An educative experience to share.
     """
     creador = schema.TextLine(
         title=_(u"Creadores"),
@@ -71,9 +71,9 @@ class IGoodPractice(form.Schema):
 class View(grok.View):
     """Default view (called "@@view"") for a contact.
     
-    The associated template is found in goodpractice_templates/view.pt.
+    The associated template is found in educativeexperience_templates/view.pt.
     """
     
-    grok.context(IGoodPractice)
+    grok.context(IEducativeExperience)
     grok.require('zope2.View')
     grok.name('view')

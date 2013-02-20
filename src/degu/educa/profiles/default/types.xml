@@ -4,7 +4,9 @@
       then configured with the corresponding files in types/*.xml.
    -->
  
- <object name="degu.Student"       meta_type="Dexterity FTI"/>
- <object name="degu.GoodPractice"  meta_type="Dexterity FTI"/>
+ <object name="degu.Student" meta_type="Dexterity FTI"/>
+ <object name="degu.StudentFolder" meta_type="Dexterity FTI"/>
+ <object name="degu.EducativeExperience" meta_type="Dexterity FTI"/>
+ <object name="degu.EducativeExperienceFolder" meta_type="Dexterity FTI"/>
     
 </object>

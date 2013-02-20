@@ -9,8 +9,18 @@
       />
 
   <permission
-      id="degu.AddGoodPractice"
-      title="Degu: Agregar experiencia"
+      id="degu.AddStudentFolder"
+      title="Degu: Add Student Folder"
+      />
+
+  <permission
+      id="degu.AddEducativeExperience"
+      title="Degu: Add Educative Experience"
+      />
+
+  <permission
+      id="degu.AddEducativeExperienceFolder"
+      title="Degu: Add Educative Experience Folder"
       />
 
 </configure>

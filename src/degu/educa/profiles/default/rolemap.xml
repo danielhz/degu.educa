@@ -7,7 +7,19 @@
         <role name="Owner" />
         <role name="Contributor" />
     </permission>
-    <permission name="Degu: Agregar experiencia" acquire="False">
+    <permission name="Degu: Add Student Folder" acquire="False">
+        <role name="Manager" />
+        <role name="Site Administrator" />
+        <role name="Owner" />
+        <role name="Contributor" />
+    </permission>
+    <permission name="Degu: Add Educative Experience" acquire="False">
+        <role name="Manager" />
+        <role name="Site Administrator" />
+        <role name="Owner" />
+        <role name="Contributor" />
+    </permission>
+    <permission name="Degu: Add Educative Experience Folder" acquire="False">
         <role name="Manager" />
         <role name="Site Administrator" />
         <role name="Owner" />

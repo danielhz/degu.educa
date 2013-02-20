@@ -1,0 +1,6 @@
+# Daniel Hernández <daniel@degu.cl>, 2013.
+
+# Student
+
+msgid "Student"
+msgstr "Estudiante"

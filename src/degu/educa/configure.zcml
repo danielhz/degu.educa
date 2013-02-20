@@ -8,6 +8,7 @@
   <includeDependencies package="." />
   <include file="permissions.zcml" />
   <grok:grok package="." />
+  <i18n:registerTranslations directory="locales" />
 
   <class class="plone.app.blob.content.ATBlob">
       <implements interface=".interfaces.IHasDAMCode" />
